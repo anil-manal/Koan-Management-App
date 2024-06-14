@@ -1,0 +1,28 @@
+<!-- Example of a simple header layout for the navigation drawer -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:orientation="vertical"
+    android:background="@android:color/holo_orange_light">
+
+    <ImageView
+        android:id="@+id/imageViewHeader"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textViewHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:text="Saavkar Finance "
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</LinearLayout>

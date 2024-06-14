@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Saavkar</string>
+    <string name="Login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="Signup">Signup\n</string>
+    <string name="clock_to_login">Click to login\n</string>
+    <string name="clock_to_register">Click to register\n</string>
+    <string name="LogOut">Logout\n</string>
+    <string name="Register_Here">Register Here</string>
+    <string name="Password">Password</string>
+    <string name="navigation_drawer_open">Open Drawer</string>
+    <string name="navigation_drawer_close">Close Drawer</string>
+
+    <string name="hint_borrower_name">Borrower Name</string>
+    <string name="hint_mobile_number">Mobile Number</string>
+    <string name="hint_amount_to_borrow">Amount To Borrow</string>
+    <string name="hint_loan_duration">Loan Duration</string>
+    <string name="btn_add_borrower">Add Borrower</string>
+    <string name="add_borrower">Add Borrower</string>
+    <string name="loan_end_date">Loan End Date</string>
+    <string name="loan_start_date">Loan Start Date</string>
+    <string name="interest_rate">Interest Rate</string>
+    <string name="amount_to_borrow">Amount To Borrow</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="borrower_name">Borrower Name</string>
+    <string name="name">Name</string>
+    <string name="loan_duration">Loan Duration</string>
+    <string name="monthly_interest">Monthly Intrest</string>
+    <string name="days_remaining">Days remaining: %1$d</string>
+    <string name="channel_name">Channel Name</string>
+    <string name="channel_description">Channel Referance</string>
+    <string name="msg_token_fmt">Token: %s</string>
+
+    <string name="collection_day_channel" translatable="false">your_channel_id</string>
+
+
+</resources>

@@ -1,0 +1,25 @@
+<resources>
+    <string-array name="interest_rates">
+        <item>No interest</item>
+        <item>1%</item>
+        <item>2%</item>
+        <item>3%</item>
+        <!-- Add more interest rates if needed -->
+    </string-array>
+
+    <string-array name="interest_frequencies">
+        <item>Monthely</item>
+        <item>Quarterly</item>
+        <item>Yearly</item>
+        <item>Custom Date</item>
+    </string-array>
+
+    <array name="update_fields">
+        <item>amountToBorrow</item>
+        <item>BorrowerName</item>
+        <item>interestRate</item>
+        <item>loanDuration</item>
+        <item>mobileNumber</item>
+        <item>monthlyInterest</item>
+    </array>
+</resources>

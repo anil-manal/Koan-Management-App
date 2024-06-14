@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "494263034077",
+    "firebase_url": "https://saavkar-101-default-rtdb.firebaseio.com",
+    "project_id": "saavkar-101",
+    "storage_bucket": "saavkar-101.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494263034077:android:a6be1e49256c2d734ebb34",
+        "android_client_info": {
+          "package_name": "com.brandedpatil.saavkar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoLpZiiiEhXQbKb95-iMNzzhzMSMDXmOE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.brandedpatil.saavkar"
+    android:versionCode="2.0"
+    android:versionName="1.0">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <meta-data
+        android:name="com.google.firebase.messaging.collection_day_channel"
+        android:value="@string/collection_day_channel" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:targetApi="31">
+
+
+
+        <activity
+            android:name=".InterestPaidDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateDetailsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".CollectionActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".DisplayBorrowersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NotificationsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BorrowerProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BorrowerListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddBorrowerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserAccountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Signup"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" /> <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- Notification Receiver -->
+        <service
+            android:name=".CollectionDayNotificationService"
+            android:exported="true"
+            tools:ignore="ExportedService,Instantiatable,MissingClass"
+            android:permission="TODO">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+
+
+    </application>
+
+</manifest>

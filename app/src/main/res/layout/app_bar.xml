@@ -1,0 +1,10 @@
+<!-- res/layout/app_bar.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="?attr/colorPrimary">
+
+    <!-- Add your app bar contents here -->
+
+</LinearLayout>
