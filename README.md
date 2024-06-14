@@ -39,7 +39,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For questions or support, please open an issue or contact [your email](mailto:anilmanal992115@gmail.com).
+For questions or support, please open an issue or contact [Email](mailto:anilmanal992115@gmail.com).
 
 ---
 
